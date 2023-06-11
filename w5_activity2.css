@@ -1,0 +1,279 @@
+body {
+	background-image: url("rainbow.png");
+	background-size: 1440px;
+	text-align: center;
+	letter-spacing: 2px;
+     }
+
+.red {
+	font-size: 65px;
+	font-family: Bodoni MT;
+	color: #fb1416;
+	position: relative;
+	display: inline-block;
+     }
+
+.redtext {
+	   font-size: 16px;
+	   color: white;
+	   font-family: Trebuchet MS;
+	 }
+
+.redtext:first-child:first-letter {
+				    color: #A60E0E; 
+				    font-family: Trebuchet MS;
+				    initial-letter: 2;
+				    margin-right: 5px;
+				  }
+
+.red .redtext {
+		visibility: hidden;
+		width: 230px;
+		top: 100%;
+		left: 50%;
+		margin-left: -115px;
+		background-color: #fb1416;
+		text-align: justify;
+		border-radius: 6px;
+		padding: 10px 14px;
+		position: absolute;
+		z-index: 1;
+	      }
+
+.red:hover .redtext {
+		      visibility: visible;
+		    }
+
+.orange {
+	  font-size: 65px;
+	  font-family: Calisto MT;
+	  color: #f49a32;
+	  position: relative;
+	  display: inline-block;
+        }
+
+.orangetext {
+	      font-size: 16px;
+	      color: white;
+	      font-family: Trebuchet MS;
+	    }
+
+.orangetext:first-child:first-letter {
+				       color: #C67515; 
+				       font-family: Trebuchet MS;
+				       initial-letter: 2;
+				       margin-right: 5px;
+				     }
+
+.orange .orangetext {
+			visibility: hidden;
+			width: 230px;
+			top: 100%;
+			left: 50%;
+			margin-left: -115px;
+			background-color: #f49a32;
+			text-align: justify;
+			border-radius: 6px;
+			padding: 10px 14px;
+			position: absolute;
+			z-index: 1;
+	     	    }
+
+.orange:hover .orangetext {
+			    visibility: visible;
+		   	  }
+
+.yellow {
+	  font-size: 65px;
+	  font-family: Century Gothic;
+	  color: #f9ed34;
+	  position: relative;
+	  display: inline-block;
+        }
+
+.yellowtext {
+	      font-size: 16px;
+	      color: black;
+	      font-family: Trebuchet MS;
+	    }
+
+.yellowtext:first-child:first-letter {
+				       color: #C6BB15; 
+				       font-family: Trebuchet MS;
+				       initial-letter: 2;
+				       margin-right: 5px;
+				  }
+
+.yellow .yellowtext {
+			visibility: hidden;
+			width: 230px;
+			top: 100%;
+			left: 50%;
+			margin-left: -115px;
+			background-color: #f9ed34;
+			text-align: justify;
+			border-radius: 6px;
+			padding: 10px 14px;
+			position: absolute;
+			z-index: 1;
+	     	    }
+
+.yellow:hover .yellowtext {
+			    visibility: visible;
+		 	  }
+
+.green {
+	  font-size: 65px;
+	  font-family: Lucida Console;
+	  color: #4abb5a;
+	  position: relative;
+	  display: inline-block;
+       }
+
+.greentext {
+	      font-size: 16px;
+	      color: white;
+	      font-family: Trebuchet MS;
+	   }
+
+.greentext:first-child:first-letter {
+				      color: #09991C; 
+			  	      font-family: Trebuchet MS;
+				      initial-letter: 2;
+				      margin-right: 5px;
+				  }
+
+.green .greentext {
+		    visibility: hidden;
+		    width: 230px;
+		    top: 100%;
+		    left: 50%;
+		    margin-left: -115px;
+		    background-color: #4abb5a;
+		    text-align: justify;
+		    border-radius: 6px;
+		    padding: 10px 14px;
+		    position: absolute;
+		    z-index: 1;
+	     	  }
+
+.green:hover .greentext {
+			  visibility: visible;
+		 	}
+
+.blue {
+	font-size: 65px;
+	font-family: Comic Sans MS;
+	color: #39b0e4;
+	position: relative;
+	display: inline-block;
+      }
+
+.bluetext {
+	    font-size: 16px;
+	    color: white;
+	    font-family: Trebuchet MS;
+	  }
+
+.bluetext:first-child:first-letter {
+				     color: #0E7DAD; 
+				     font-family: Trebuchet MS;
+				     initial-letter: 2;
+				     margin-right: 5px;
+				   }
+
+.blue .bluetext {
+		  visibility: hidden;
+		  width: 230px;
+		  top: 100%;
+		  left: 50%;
+		  margin-left: -115px;
+		  background-color: #39b0e4;
+		  text-align: justify;
+		  border-radius: 6px;
+		  padding: 10px 14px;
+		  position: absolute;
+		  z-index: 1;
+	        }
+
+.blue:hover .bluetext {
+			  visibility: visible;
+		 	}
+
+.indigo {
+	  font-size: 65px;
+	  font-family: Courier New;
+	  color: #3e419b;
+	  position: relative;
+	  display: inline-block;
+      }
+
+.indigotext {
+	      font-size: 16px;
+	      color: white;
+	      font-family: Trebuchet MS;
+	    }
+
+.indigotext:first-child:first-letter {
+				       color: #040869; 
+				       font-family: Trebuchet MS;
+				       initial-letter: 2;
+				       margin-right: 5px;
+				     }
+
+.indigo .indigotext {
+		      visibility: hidden;
+		      width: 230px;
+		      top: 100%;
+		      left: 50%;
+		      margin-left: -115px;
+		      background-color: #3e419b;
+		      text-align: justify;
+		      border-radius: 6px;
+		      padding: 10px 14px;
+		      position: absolute;
+		      z-index: 1;
+	            }
+
+.indigo:hover .indigotext {
+			    visibility: visible;
+		 	  }
+
+.violet {
+	  font-size: 65px;
+	  font-family: Arial;
+	  color: #713e9a;
+	  position: relative;
+	  display: inline-block;
+      }
+
+.violettext {
+	      font-size: 16px;
+	      color: white;
+	      font-family: Trebuchet MS;
+	    }
+
+.violettext:first-child:first-letter {
+				       color: #350060; 
+				       font-family: Trebuchet MS;
+				       initial-letter: 2;
+				       margin-right: 5px;
+				     }
+ 
+.violet .violettext {
+		      visibility: hidden;
+		      width: 230px;
+		      top: 100%;
+		      left: 50%;
+		      margin-left: -115px;
+		      background-color: #713e9a;
+		      text-align: justify;
+		      border-radius: 6px;
+		      padding: 10px 14px;
+		      position: absolute;
+		      z-index: 1;
+	            }
+
+.violet:hover .violettext {
+			    visibility: visible;
+		 	  }
